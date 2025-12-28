@@ -3,8 +3,6 @@ import { test, expect } from '@playwright/test';
 test('Remove item from cart - No Login', async ({ page }) => {
   await page.goto('https://practicesoftwaretesting.com/#/');
   await expect(page.locator('.card-img-top')).toHaveCount(9, { timeout: 20000 });
-  console.log('✅ الصفحة الرئيسية تحملت كامل');
-
   await page.locator('.card').first().click();
   await expect(page.getByRole('heading', { name: 'Combination Pliers' })).toBeVisible({ timeout: 10000 });
   

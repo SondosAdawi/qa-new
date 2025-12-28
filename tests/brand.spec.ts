@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Brand Filter Feature', () => {
 
-  // NOTE: This test verifies a known bug where selecting a brand does not update the products list
+ 
   test('Brand filter - known bug (products do not update)', async ({ page }) => {
     await page.goto('/');
 

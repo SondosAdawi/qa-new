@@ -31,8 +31,9 @@ export class ProductsPage {
     await cartIcon.click();
   }
 
+
   async removeProductFromCart() {
-    // زر X الحقيقي (آخر زر بالصف)
+    
     const removeButton = this.page.locator('button.btn-danger').first();
     await expect(removeButton).toBeVisible();
     await removeButton.click();

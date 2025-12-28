@@ -9,7 +9,7 @@ export class LoginPage {
   constructor(page: Page) {
     this.page = page;
     this.emailInput = page.locator('#email');
-        this.passwordInput = page.locator('#password');
+    this.passwordInput = page.locator('#password');
     this.loginButton = page.getByRole('button', { name: 'Login' });
   }
 

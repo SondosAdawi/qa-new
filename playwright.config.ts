@@ -1,14 +1,14 @@
 import { defineConfig } from '@playwright/test';
-import 'dotenv/config'; // 👈 مهم جدًا لقراءة .env
+import 'dotenv/config'; 
 
 export default defineConfig({
   workers: 1,
-
+ reporter: 'html',
   use: {
     baseURL: process.env.BASE_URL || 'https://practicesoftwaretesting.com',
-    headless: false,          // يفتح المتصفح
+    headless: false,         
     launchOptions: {
-      slowMo: 2000,           // يبطّئ الحركة
+      slowMo: 2000,           
     },
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
@@ -19,8 +19,9 @@ export default defineConfig({
     name: 'chromium',
     use: { browserName: 'chromium' },
   },
+  
   {
-    name: 'firefox',  // 👈 هذا المتصفح الجديد
+    name: 'firefox',  
     use: { browserName: 'firefox' },
   }
 ],

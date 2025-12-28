@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Filters Feature', () => {
 
-  // 1️⃣ Structure: Filters exist on products page
   test('filters are available on products page', async ({ page }) => {
     await page.goto('/');
 
@@ -10,7 +9,6 @@ test.describe('Filters Feature', () => {
     await expect(filters.first()).toBeVisible();
   });
 
-  // 2️⃣ Quantity: Multiple filters exist
   test('multiple filters are available', async ({ page }) => {
     await page.goto('/');
 
@@ -20,7 +18,6 @@ test.describe('Filters Feature', () => {
     expect(count).toBeGreaterThan(0);
   });
 
-  // 3️⃣ Behavior: User can select a filter
   test('user can select a filter option', async ({ page }) => {
     await page.goto('/');
 
