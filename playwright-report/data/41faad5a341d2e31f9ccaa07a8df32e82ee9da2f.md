@@ -1,0 +1,102 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: Practice Black Box Testing & Bug Hunting
+      - button "Testing Guide" [ref=e7] [cursor=pointer]
+      - button "🐛 Bug Hunting" [ref=e8] [cursor=pointer]
+    - navigation [ref=e9]:
+      - generic [ref=e10]:
+        - link "Practice Software Testing - Toolshop" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - generic [ref=e30]:
+          - menubar "Main menu" [ref=e31]:
+            - menuitem "Home" [ref=e32]:
+              - link "Home" [ref=e33] [cursor=pointer]:
+                - /url: /
+            - menuitem "Categories" [ref=e34]:
+              - button "Categories" [ref=e35] [cursor=pointer]
+            - menuitem "Contact" [ref=e36]:
+              - link "Contact" [ref=e37] [cursor=pointer]:
+                - /url: /contact
+            - menuitem "Sign in" [ref=e38]:
+              - link "Sign in" [ref=e39] [cursor=pointer]:
+                - /url: /auth/login
+            - menuitem "cart" [ref=e40]:
+              - link "cart" [ref=e41] [cursor=pointer]:
+                - /url: /checkout
+                - img [ref=e43]
+                - generic [ref=e45]: "1"
+          - button [ref=e47] [cursor=pointer]:
+            - img [ref=e49]
+            - text: EN
+  - generic [ref=e53]:
+    - list [ref=e55]:
+      - listitem:
+        - generic:
+          - generic: Cart
+          - generic: "1"
+      - listitem:
+        - generic:
+          - generic: Sign in
+          - generic: "2"
+      - listitem:
+        - generic:
+          - generic: Billing Address
+          - generic: "3"
+      - listitem:
+        - generic:
+          - generic: Payment
+          - generic: "4"
+    - generic [ref=e59]:
+      - table [ref=e60]:
+        - rowgroup [ref=e61]:
+          - row "Item Quantity Price Total" [ref=e62]:
+            - columnheader "Item" [ref=e63]
+            - columnheader "Quantity" [ref=e64]
+            - columnheader "Price" [ref=e65]
+            - columnheader "Total" [ref=e66]
+            - columnheader [ref=e67]
+        - rowgroup [ref=e68]:
+          - row "Combination Pliers Quantity for Combination Pliers $14.15 $14.15" [ref=e69]:
+            - cell "Combination Pliers" [ref=e70]:
+              - generic [ref=e71]: Combination Pliers
+            - cell "Quantity for Combination Pliers" [ref=e72]:
+              - generic [ref=e73]: Quantity for Combination Pliers
+              - spinbutton "Quantity for Combination Pliers" [ref=e74]: "1"
+            - cell "$14.15" [ref=e75]
+            - cell "$14.15" [ref=e76]
+            - cell [ref=e77]:
+              - img [ref=e80] [cursor=pointer]
+        - rowgroup [ref=e82]:
+          - row "Total $14.15" [ref=e83]:
+            - cell [ref=e84]
+            - cell [ref=e85]
+            - cell "Total" [ref=e86]:
+              - strong [ref=e87]: Total
+            - cell "$14.15" [ref=e88]
+            - cell [ref=e89]
+      - generic [ref=e90]:
+        - button "Continue Shopping" [ref=e91] [cursor=pointer]
+        - button "Proceed to checkout" [ref=e92] [cursor=pointer]
+  - paragraph [ref=e95]:
+    - text: This is a DEMO application (
+    - link "GitHub repo" [ref=e96] [cursor=pointer]:
+      - /url: https://github.com/testsmith-io/practice-software-testing
+    - text: ), used for software testing training purpose. |
+    - link "Support this project" [ref=e97] [cursor=pointer]:
+      - /url: https://testwithroy.com/b/support
+    - text: "|"
+    - link "Privacy Policy" [ref=e98] [cursor=pointer]:
+      - /url: /privacy
+    - text: "| Banner photo by"
+    - link "Barn Images" [ref=e99] [cursor=pointer]:
+      - /url: https://unsplash.com/@barnimages
+    - text: "on"
+    - link "Unsplash" [ref=e100] [cursor=pointer]:
+      - /url: https://unsplash.com/photos/t5YUoHW6zRo
+    - text: .
+```

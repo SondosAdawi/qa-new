@@ -1,0 +1,67 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: Practice Black Box Testing & Bug Hunting
+      - button "Testing Guide" [ref=e7] [cursor=pointer]
+      - button "🐛 Bug Hunting" [ref=e8] [cursor=pointer]
+    - navigation [ref=e9]:
+      - generic [ref=e10]:
+        - link "Practice Software Testing - Toolshop" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - generic [ref=e30]:
+          - menubar "Main menu" [ref=e31]:
+            - menuitem "Home" [ref=e32]:
+              - link "Home" [ref=e33] [cursor=pointer]:
+                - /url: /
+            - menuitem "Categories" [ref=e34]:
+              - button "Categories" [ref=e35] [cursor=pointer]
+            - menuitem "Contact" [ref=e36]:
+              - link "Contact" [ref=e37] [cursor=pointer]:
+                - /url: /contact
+            - menuitem "Sign in" [ref=e38]:
+              - link "Sign in" [ref=e39] [cursor=pointer]:
+                - /url: /auth/login
+          - button [ref=e41] [cursor=pointer]:
+            - img [ref=e43]
+            - text: EN
+  - generic [ref=e47]:
+    - list [ref=e49]:
+      - listitem:
+        - generic:
+          - generic: Cart
+          - generic: "1"
+      - listitem:
+        - generic:
+          - generic: Sign in
+          - generic: "2"
+      - listitem:
+        - generic:
+          - generic: Billing Address
+          - generic: "3"
+      - listitem:
+        - generic:
+          - generic: Payment
+          - generic: "4"
+    - paragraph [ref=e53]: The cart is empty. Nothing to display.
+  - paragraph [ref=e56]:
+    - text: This is a DEMO application (
+    - link "GitHub repo" [ref=e57] [cursor=pointer]:
+      - /url: https://github.com/testsmith-io/practice-software-testing
+    - text: ), used for software testing training purpose. |
+    - link "Support this project" [ref=e58] [cursor=pointer]:
+      - /url: https://testwithroy.com/b/support
+    - text: "|"
+    - link "Privacy Policy" [ref=e59] [cursor=pointer]:
+      - /url: /privacy
+    - text: "| Banner photo by"
+    - link "Barn Images" [ref=e60] [cursor=pointer]:
+      - /url: https://unsplash.com/@barnimages
+    - text: "on"
+    - link "Unsplash" [ref=e61] [cursor=pointer]:
+      - /url: https://unsplash.com/photos/t5YUoHW6zRo
+    - text: .
+```

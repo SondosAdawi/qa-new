@@ -1,0 +1,120 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: Practice Black Box Testing & Bug Hunting
+      - button "Testing Guide" [ref=e7] [cursor=pointer]
+      - button "🐛 Bug Hunting" [ref=e8] [cursor=pointer]
+    - navigation [ref=e9]:
+      - generic [ref=e10]:
+        - link "Practice Software Testing - Toolshop" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+        - generic [ref=e30]:
+          - menubar "Main menu" [ref=e31]:
+            - menuitem "Home" [ref=e32]:
+              - link "Home" [ref=e33] [cursor=pointer]:
+                - /url: /
+            - menuitem "Categories" [ref=e34]:
+              - button "Categories" [ref=e35] [cursor=pointer]
+            - menuitem "Contact" [ref=e36]:
+              - link "Contact" [ref=e37] [cursor=pointer]:
+                - /url: /contact
+            - menuitem "Sign in" [ref=e38]:
+              - link "Sign in" [ref=e39] [cursor=pointer]:
+                - /url: /auth/login
+          - button [ref=e41] [cursor=pointer]:
+            - img [ref=e43]
+            - text: EN
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - figure "Photo by Helinton Fantin on Unsplash." [ref=e49]:
+        - img "Combination Pliers" [ref=e51]
+        - generic [ref=e52]:
+          - text: Photo by
+          - link "Helinton Fantin" [ref=e53] [cursor=pointer]:
+            - /url: https://unsplash.com/@fantin
+          - text: "on"
+          - link "Unsplash" [ref=e54] [cursor=pointer]:
+            - /url: https://unsplash.com/photos/W8BNwvOvW4M
+          - text: .
+      - generic [ref=e55]:
+        - heading "Combination Pliers" [level=1] [ref=e56]
+        - paragraph [ref=e57]:
+          - generic "category" [ref=e58]: Pliers
+          - generic "brand" [ref=e59]: ForgeFlex Tools
+        - generic [ref=e61]: $14.15
+        - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e62]:
+          - text: "CO₂:"
+          - generic [ref=e63]: A
+          - generic [ref=e64]: B
+          - generic [ref=e65]: C
+          - generic [ref=e66]: D
+          - generic [ref=e67]: E
+        - paragraph [ref=e68]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra felis nec pellentesque feugiat. Donec faucibus arcu maximus, convallis nisl eu, placerat dolor. Morbi finibus neque nec tincidunt pharetra. Sed eget tortor malesuada, mollis enim id, condimentum nisi. In viverra quam at bibendum ultricies. Aliquam quis eros ex. Etiam at pretium massa, ut pharetra tortor. Sed vel metus sem. Suspendisse ac molestie turpis. Duis luctus justo massa, faucibus ornare eros elementum et. Vestibulum quis nisl vitae ante dapibus tempor auctor ut leo. Mauris consectetur et magna at ultricies. Proin a aliquet turpis.
+        - generic [ref=e69]:
+          - button "Decrease quantity" [ref=e70] [cursor=pointer]:
+            - img [ref=e72]
+          - generic [ref=e74]: Quantity
+          - spinbutton "Quantity" [ref=e75]: "1"
+          - button "Increase quantity" [ref=e76] [cursor=pointer]:
+            - img [ref=e78]
+        - generic [ref=e80]:
+          - button "Add to cart" [active] [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - text: Add to cart
+          - button "Add to favourites" [ref=e85] [cursor=pointer]:
+            - img [ref=e87]
+            - text: Add to favourites
+    - separator [ref=e89]
+    - generic [ref=e90]:
+      - heading "Related products" [level=2] [ref=e91]
+      - generic [ref=e93]:
+        - link "Pliers Pliers More information" [ref=e94] [cursor=pointer]:
+          - /url: /product/01KDKC62TSTM9P43E59F68XHCQ
+          - img "Pliers" [ref=e96]
+          - generic [ref=e97]:
+            - heading "Pliers" [level=5] [ref=e98]
+            - link "More information" [ref=e99]:
+              - /url: "#"
+        - link "Bolt Cutters Bolt Cutters More information" [ref=e100] [cursor=pointer]:
+          - /url: /product/01KDKC62V1W5HCFYSPWM2575J0
+          - img "Bolt Cutters" [ref=e102]
+          - generic [ref=e103]:
+            - heading "Bolt Cutters" [level=5] [ref=e104]
+            - link "More information" [ref=e105]:
+              - /url: "#"
+        - link "Long Nose Pliers Long Nose Pliers More information" [ref=e106] [cursor=pointer]:
+          - /url: /product/01KDKC62VBE2YR2YSY1NB53Y61
+          - img "Long Nose Pliers" [ref=e108]
+          - generic [ref=e109]:
+            - heading "Long Nose Pliers" [level=5] [ref=e110]
+            - link "More information" [ref=e111]:
+              - /url: "#"
+        - link "Slip Joint Pliers Slip Joint Pliers More information" [ref=e112] [cursor=pointer]:
+          - /url: /product/01KDKC62VG9H1PP2QFAN7SVSM2
+          - img "Slip Joint Pliers" [ref=e114]
+          - generic [ref=e115]:
+            - heading "Slip Joint Pliers" [level=5] [ref=e116]
+            - link "More information" [ref=e117]:
+              - /url: "#"
+  - paragraph [ref=e120]:
+    - text: This is a DEMO application (
+    - link "GitHub repo" [ref=e121] [cursor=pointer]:
+      - /url: https://github.com/testsmith-io/practice-software-testing
+    - text: ), used for software testing training purpose. |
+    - link "Support this project" [ref=e122] [cursor=pointer]:
+      - /url: https://testwithroy.com/b/support
+    - text: "|"
+    - link "Privacy Policy" [ref=e123] [cursor=pointer]:
+      - /url: /privacy
+    - text: "| Banner photo by"
+    - link "Barn Images" [ref=e124] [cursor=pointer]:
+      - /url: https://unsplash.com/@barnimages
+    - text: "on"
+    - link "Unsplash" [ref=e125] [cursor=pointer]:
+      - /url: https://unsplash.com/photos/t5YUoHW6zRo
+    - text: .
+```
